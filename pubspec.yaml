@@ -1,0 +1,31 @@
+name: paws_preferences
+description: A cat preference app using swipe gestures.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  cached_network_image: ^3.3.1
+  tcard: ^1.3.5
+  card_swiper: ^2.0.4
+  swipable_stack: ^1.1.0
+  flutter_lints: ^5.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false  
+  image_path: "assets/cat.jpg"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
